@@ -1,0 +1,74 @@
+# Site
+title:              iDngs 無名
+bio:                '物有所不足，智有所不明。'
+description:        "IT工程师，不后悔，这题不会，明天有事，不是天蝎座，没多少钱了，不知道吃什么，不知道安利，不买商铺，不办卡，喝酸奶舔盖，吃薯片不舔手指，不知道鸽子为什么这么大，刚才那巴掌对脸的作用力是32.2牛，此刻我对你的伤害造成你心理阴影部分的面积约9平方厘米。"
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                http://taylantatli.github.io/Moon
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            X12_D
+facebook:           100005031703308
+github:             goooooooooo
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           idngs
+#xing:              username
+#instagram:         username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+steam:              idngs_
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+weibo:              beliefsmile
+#wechat:            Chinaredack
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
