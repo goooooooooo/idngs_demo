@@ -1,37 +1,35 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: 关    于
+tags: [about, iDngs無名]
+date: 2016-12-06
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><a target="_blank" href="https://en.wikipedia.org/wiki/Steve_Jobs"><b>Steve Jobs :</b></a> 「Stay hungry. Stay foolish.」——物有所不足，智有所不明。</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## About  <a target="_blank" href="https://www.linkedin.com/in/idngs"><b>iDngs 無名</b></a>
+* 懒！什么都不想写！
+* 菜鸡一只，什么都不懂😂
+* 闲时靠Steam打发时间，很少Codeding。。。
+* 吃吃吃！早餐吃啥？午餐吃啥？晚餐吃啥？呃？好饿。。 宵夜吃啥？
+* 2016年 穷！成！狗！的！一！年！！:v
 
-## Preview
+
+
 
 {% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
+    http://www.xinyaaa.com/assets/images/28264.jpg
+    http://www.xinyaaa.com/assets/images/x28264.jpg
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images caption="虽然穷成狗，但是日子还是要过的_(:3」∠)_" cols=2 %}
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+## Github Project
 
-## Getting Started
+See a [live version of iDngs 無名 Project](http://goooooooooo.github.io/idngs_demo) hosted on GitHub(=・ω・=).
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
+## Other
+
+no Ps(｀・ω・´),u can go Home
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[back Home](http://idngs.com){: .btn}
