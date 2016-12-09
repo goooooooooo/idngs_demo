@@ -1,112 +1,109 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
-excerpt: "Minimal, one column Jekyll theme for your blog."
+title:  "iDngs Website blog"
+date:   2016-12-06
+excerpt: "这是iDngs的Github Project介绍页面。"
 project: true
 tag:
 - jekyll 
-- moon
+- iDngs
 - blog
 - about
-- theme
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![iDngs Homepage](http://www.xinyaaa.com/assets/images/20161209162030.jpg)    
     
-<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
+<center><b></b></center>
      
- I'm not a developer or designer. And I don't add footer to show who did this theme. If you like this theme or using it, please give a **star** for motivation, It makes me happy.
+本博客站点托管于Github上，属于静态博客。页脚信息有需要请自己添加。喜欢的话可以点击下方 ***Star*** 开始建设自己的博客站点。
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
+<iframe src="https://ghbtns.com/github-btn.html?user=goooooooooo&repo=iDngs_demo&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
       
-## Installation
-* Fork the [Moon repo](https://github.com/TaylanTatli/Moon/fork)
-* Edit `_config.yml` file.
-* Remove sample posts from `_posts` folder and add yours.
-* Edit `index.md` file in `about` folder.
-* Change repo name to `YourUserName.github.io`    
-     
-That's all.
+## git clone至本地预览
 
-## Preview
+```
+* 终端执行 'git clone https://github.com/goooooooooo/idngs_demo.git' 至本地文件
+* 编辑本地目录中的 `_config.yml` 文件.
+* 删除 `_posts` 文件夹中所有文件，然后写入自己文章。
+* 删除 `site` 文件夹。
+* 编辑以下目录中的文件替换成自己名字。
+     目录中的 `index.md` 
+     目录文件夹 `about` 中的 `index.md` 
+
+修改完成执行 jekyll server 启动服务
+
+浏览器访问http://localhost:4000 or http://127.0.0.1:4000 预览效果。
+```  
+
+
+## 预览效果
 
 {% capture images %}
 	https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
 	https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png
 	https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}
+{% include gallery images=images caption="预览效果截图" cols=3 %}
 
 ---
 
-{% capture images %}
-	https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png
-	https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png
-{% endcapture %}
-{% include gallery images=images caption="Moon Theme on Small Screen Size" cols=2 %}      
-      
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.      
+## 给萌新的说明区
 
-## Site Setup
-A quick checklist of the files you’ll want to edit to get up and running.    
+检查目录全部文件确保jekyll能正确编译和运行。  
 
-### Site Wide Configuration
-`_config.yml` is your friend. Open it up and personalize it. Most variables are self explanatory but here's an explanation of each if needed:
+### 配置文件
+`_config.yml` 是配置文件，站点所有配置都在这里面。
 
 #### title
 
-The title of your site... shocker!
+标题
 
-Example `title: My Awesome Site`
+例如： `title: My  Site`
 
 #### bio
 
-The description to show on your homepage.
+首页描述
 
 #### description
 
-The description to use for meta tags and navigation menu.
+标签和导航栏的描述
 
 #### url
 
-Used to generate absolute urls in `sitemap.xml`, `feed.xml`, and for generating canonical URLs in `<head>`. When developing locally either comment this out or use something like `http://localhost:4000` so all assets load properly. *Don't include a trailing `/`*.
+用于规范URL链接。
 
-Examples:
+例如:
 
 {% highlight yaml %}
-url: http://taylantatli.me/Moon
+url: http://www.idngs.com/idngs_demo
 url: http://localhost:4000
-url: //cooldude.github.io
+url: //goooooooooo.github.io
 url:
 {% endhighlight %}
 
 #### reading_time
 
-Set true to show reading time for posts. And set `words_per_minute`, default is 200.
+'words_per_minute' 设为 'true' 时，文章中显示阅读时间，默认200秒。
 
 #### logo
-Your site's logo. It will show on homepage and navigation menu. Also used for twitter meta tags.
+网站LOGO
 
 #### background
-Image for background. If you don't set it, color will be used as a background.
+背景，不懂请前往[W3CSCHOOL](http://www.w3school.com.cn/html/html_backgrounds.asp) 深⬆入⬆学习。⬅_⬅
 
-#### Google Analytics and Webmaster Tools
+#### 百度站长及工具
 
-Google Analytics UA and Webmaster Tool verification tags can be entered in `_config.yml`. For more information on obtaining these meta tags check [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) and [Bing Webmaster Tools](https://ssl.bing.com/webmaster/configure/verify/ownership) support.
+站长工具 的验证都能在 `_config.yml` 配置文件中写入. 获取更多meta标签信息请前往[百度站长平台](http://zhanzhang.baidu.com/college/courseinfo?id=267) 或 [Google Webmaster Tools](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=35179) 获取更多支持.
 
 #### MathJax
-It's enabled. But if you don't want to use it. Set it false in  `_config.yml`.
-
-#### Disqus Comments
-Set your disqus shortname in `_config.yml` to use comments.
+默认开启，不想用，在 `_config.yml` 设置中参数设为 'false'
 
 ---
 
-### Navigation Links
+### 导航链接
 
-To set what links appear in the top navigation edit `_data/navigation.yml`. Use the following format to set the URL and title for as many links as you'd like. *External links will open in a new window.*
+导航链接的设置，在目录 '_data' 中的 `navigation.yml` 文件。如下：
 
 {% highlight yaml %}
 - title: Home
@@ -121,40 +118,7 @@ To set what links appear in the top navigation edit `_data/navigation.yml`. Use 
 - title: About
   url: /about/
 
-- title: Moon
-  url: http://taylantatli.me/Moon
+- title: iDngs
+  url: http://iDngs.com/idngs_demo
 {% endhighlight %}
 
----
-
-## Layouts and Content
-
-Moon Theme use [Jekyll Compress](https://github.com/penibelst/jekyll-compress-html) to compress html output. But it can cause errors if you use "linenos" (line numbers). I suggest don't use line numbers for codes, because it won't look good with this theme, also i didn't give a proper style for them. If you insist to use line numbers, just remove `layout: compress` string from layouts. It will disable compressing.
-
-### Feature Image
-
-You can set feature image per post. Just add `feature: some link` to your post's front matter.
-
-```
-feature: /assets/img/some-image.png
-or
-feaure: http://example.com/some-image.png
-```    
- This also will be used for twitter card:
-
-![Moon Twitter Card](https://cloud.githubusercontent.com/assets/754514/14509719/61c5751c-01d6-11e6-8c29-ce8ccad149bf.png)
-
-### Comments
-To show disqus comments for your post add `comments: true` to your post's front matter.
-
----
-
-## Questions?
-
-Found a bug or aren't quite sure how something works? By all means [file a GitHub Issue](https://github.com/TaylanTatli/Moon/issues/new). And if you make something cool with this theme feel free to let me know.
-
----
-
-## License
-
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
