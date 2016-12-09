@@ -5,7 +5,6 @@ date:   2016-12-06
 excerpt: "这是iDngs的Github Project介绍页面。"
 project: true
 tag:
-- jekyll 
 - iDngs
 - blog
 - about
