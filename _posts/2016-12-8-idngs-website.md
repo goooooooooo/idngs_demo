@@ -2,7 +2,7 @@
 layout: post
 title:  "iDngs Website blog"
 date:   2016-12-06
-excerpt: "这是iDngs的Github Project介绍页面。"
+excerpt: "这是iDngs的Github项目页面。所有Github项目都在这个目录里。"
 project: true
 tag:
 - iDngs
@@ -49,24 +49,32 @@ comments: true
 
 ## 给萌新的说明区
 
+
+{% highlight html %}
+{% raw %}
+_config.yml
+
+# Site //站点配置区
+title:              iDngs 無名    // 标题
+bio:                '物有所不足，智有所不明。'  // 描述
+description:        "IT工程师，…………"  // 站点简介
+reading_time:       true  // 阅读时间
+words_per_minute:   60  // 默认60字/分钟
+logo:               'assets/img/logo.png'  // 读取logo
+background:         'assets/img/placeholder-big.jpg' // 读取背景图片
+tiled_bg:           false   // 自定义背景链接 true background 为网络图片地址
+locale:             cn_ZH  // 本地语言识别
+url:                http://goooooooooo.github.io/idngs_demo  //github项目地址
+
+{% endraw %}
+{% endhighlight %}
+
+
 检查目录全部文件确保jekyll能正确编译和运行。  
 
 ### 配置文件
+
 `_config.yml` 是配置文件，站点所有配置都在这里面。
-
-#### title
-
-标题
-
-例如： `title: My  Site`
-
-#### bio
-
-首页描述
-
-#### description
-
-标签和导航栏的描述
 
 #### url
 
@@ -81,15 +89,6 @@ url: //goooooooooo.github.io
 url:
 {% endhighlight %}
 
-#### reading_time
-
-'words_per_minute' 设为 'true' 时，文章中显示阅读时间，默认200秒。
-
-#### logo
-网站LOGO
-
-#### background
-背景，不懂请前往[W3CSCHOOL](http://www.w3school.com.cn/html/html_backgrounds.asp) 深⬆入⬆学习。⬅_⬅
 
 #### 百度站长及工具
 
@@ -105,19 +104,20 @@ url:
 导航链接的设置，在目录 '_data' 中的 `navigation.yml` 文件。如下：
 
 {% highlight yaml %}
-- title: Home
+- title: 首 页
   url: /
 
-- title: Blog
+- title: 博 客
   url: /blog/
 
-- title: Projects
+- title: 项 目
   url: /projects/
 
-- title: About
+- title: 关 于
   url: /about/
 
-- title: iDngs
+- title: iDngs 無名
   url: http://iDngs.com/idngs_demo
 {% endhighlight %}
+
 
