@@ -5,8 +5,8 @@ description:        "IT工程师，不后悔，明天有事，不是天蝎座，
 reading_time:       true
 words_per_minute:   70
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+background:         http://wwww.xinyaaa.com/assets/images/placeholder-big.jpg
+tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             cn_ZH
 url:                https://goooooooooo.github.io/idngs_demo/
 
