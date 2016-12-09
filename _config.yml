@@ -1,13 +1,13 @@
 # Site
 title:              iDngs 無名
 bio:                '物有所不足，智有所不明。'
-description:        "IT工程师，不后悔，这题不会，明天有事，不是天蝎座，没多少钱了，不知道吃什么，不知道安利，不买商铺，不办卡，喝酸奶舔盖，吃薯片不舔手指，不知道鸽子为什么这么大，刚才那巴掌对脸的作用力是32.2牛，此刻我对你的伤害造成你心理阴影部分的面积约9平方厘米。"
+description:        "IT工程师，不后悔，明天有事，不是天蝎座，没多少钱了，不知道吃什么，不知道安利，不买商铺，不办卡，喝酸奶舔盖，不知道鸽子为什么这么大，刚才那巴掌对脸的作用力是32.2牛，此刻我对你的伤害造成你心理阴影部分的面积约9平方厘米。"
 reading_time:       true
-words_per_minute:   200
+words_per_minute:   70
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
+locale:             cn_ZH
 url:                https://goooooooooo.github.io/idngs_demo/
 
 # Jekyll
